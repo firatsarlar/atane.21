@@ -9,9 +9,8 @@ const HTMLInlineCSSWebpackPlugin = require("html-inline-css-webpack-plugin").def
 const PATHS = {
   src: path.join(__dirname, '../src')
 }
-console.log("xxx--->> pathh:" , PATHS);
-exports.extractCSS = (/*{ include, exclude, use = [] }*/) =>
-{
+console.log("xxx--->> pathh:", PATHS);
+exports.extractCSS = (/*{ include, exclude, use = [] }*/) => {
   // Output extracted CSS to a file
   const plugins = [new MiniCssExtractPlugin({
     filename: "styles/[name].css",
@@ -21,9 +20,14 @@ exports.extractCSS = (/*{ include, exclude, use = [] }*/) =>
     }
   }),
   // new CssDefer(),
-  new HTMLInlineCSSWebpackPlugin(),
+  new HTMLInlineCSSWebpackPlugin({
+    leaveCSSFile: true,
+    // filter(fileName) {
+    //   return fileName.includes('main');
+    // },
+  }),
 
-];
+  ];
 
   return {
     module: {
@@ -62,14 +66,13 @@ exports.extractCSS = (/*{ include, exclude, use = [] }*/) =>
       ],
     },
     plugins: plugins
-      // new PurgecssPlugin({
-      //   paths: glob.sync(`${PATHS.src}/**/*`, { nodir: true }),
-      // }),
+    // new PurgecssPlugin({
+    //   paths: glob.sync(`${PATHS.src}/**/*`, { nodir: true }),
+    // }),
     ,
   };
 };
-exports.loadCSS = ({ include, exclude } = {}) =>
-{
+exports.loadCSS = ({ include, exclude } = {}) => {
   // const plugin = new MiniCssExtractPlugin({
   //   filename: "styles/[name].css",
   // });

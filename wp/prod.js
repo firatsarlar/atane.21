@@ -21,7 +21,7 @@ exports.productionConfig = () => {
                     {
                         from: './src/static_assets',
                         globOptions: {
-                            ignore: ["*/**/__/**", "*/**/Thumbs.db","*/**/images/c/*","*/**/images/xx/*"]
+                            ignore: [ "*/**/Thumbs.db","*/**/images/c/*","*/**/images/xx/*"]
                         }
                     }
                 ],
