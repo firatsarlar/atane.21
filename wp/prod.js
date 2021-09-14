@@ -5,6 +5,11 @@ const path = require("path");
 
 exports.productionConfig = () => {
     return {
+        output: {
+            filename: '[name].js',
+            filename: '[name].bundle.js',
+            path: path.resolve(__dirname, '../docs'),
+        },
         optimization: {
 
             minimize: true,
@@ -16,7 +21,7 @@ exports.productionConfig = () => {
                     {
                         from: './src/static_assets',
                         globOptions: {
-                            ignore: ["*/**/__/**", "*/**/Thumbs.db"]
+                            ignore: ["*/**/__/**", "*/**/Thumbs.db","*/**/images/c/*","*/**/images/xx/*"]
                         }
                     }
                 ],
