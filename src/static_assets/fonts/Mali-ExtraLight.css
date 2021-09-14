@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Mali";
+    src: url("Mali-ExtraLight.eot"); /* IE9 */
+    src: url("Mali-ExtraLight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("Mali-ExtraLight.woff") format("woff"), /* chrome, firefox */
+    url("Mali-ExtraLight.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("Mali-ExtraLight.svg#Mali ExtraLight") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: 100;
+}
+
+

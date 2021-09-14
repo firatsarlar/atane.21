@@ -1,0 +1,208 @@
+@import "common";
+#kolleksiyon {
+  &.pg-ct {
+    p {
+      padding-bottom: 0; //    margin-top: 0;
+    }
+    img {
+    }
+  }
+}
+
+.pnote {
+  font-size: 1rem;
+}
+.sb {
+  // width: 100% ;
+  height: 100vh !important;
+  //height: 1300px;
+  // z-index: 10;
+}
+
+#giris {
+  .bgx {
+    background-image: url($site_root + "/images/bg_atolye_tane.jpg");
+  }
+}
+#dersler {
+  .bgx {
+    background-image: url($site_root + "/images/bg-dersler.jpg");
+  }
+  ul {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+  .notes {
+    font-size: 0.9rem;
+  }
+}
+#faq {
+  &.pg-ct {
+    overflow-y: hidden;
+    height: auto;
+    padding: 2.6rem;
+    margin-left: 2.4rem;
+    // min-height: 100vh;
+  }
+  .question {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+}
+
+#galeri {
+  h2 {
+    background-color: rgba(47, 45, 53, 0.8);
+
+    width: 50rem;
+    left: 13px;
+  }
+  .bgx {
+    background-image: url($site_root + "/images/bg-gallery.jpg");
+  }
+  .gallery-container {
+    margin: 0 auto;
+    width: 56rem;
+    display: block;
+    position: relative;
+    left: 1.6rem;
+    margin-top: 25px;
+    z-index: 4;
+    height: 90%;
+    .gallery-item {
+      background-color: #eee;
+      span {
+        font-size: 1.3rem;
+        display: block;
+        padding: 5px 0 5px 0;
+        text-align: center;
+        margin-top: -6px;
+        color: black;
+        background-color: rgba(255, 250, 228, 0.57);
+        border-radius: 10px;
+        transform: rotate(-8deg);
+      }
+      display: block;
+      float: left;
+      margin-left: 2rem;
+      margin-bottom: 2rem;
+      width: 23rem;
+      padding: 10px;
+      border-radius: 2px;
+      img {
+        width: 100%;
+        z-index: 0;
+        display: block; // position: relative;
+        // top: -29px;
+      }
+    }
+  }
+}
+#galeri,
+#giris,
+#dersler {
+  & #gbu {
+    margin-top: -76px;
+  }
+  &.pg-ct {
+    overflow-y: hidden;
+    height: auto;
+    // min-height: 100vh;
+  }
+  .bgx {
+    /* Full height */
+    // height: 100%;
+    height: 436px; //49vh;
+    /* Create the parallax scrolling effect */
+    // background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+  }
+}
+
+#faq {
+  &.pg-ct {
+    overflow-y: auto;
+  }
+  .wrap {
+    width: 56rem;
+    margin: 0 auto;
+    svg {
+      width: 1.6rem;
+      /* float: left; */
+      display: inline-block;
+      position: relative;
+      top: 3px;
+      left: 14px;
+    }
+    hr {
+      border: none;
+      border-top: dashed 1px #aaa;
+      padding: 20px;
+    }
+    .answer {
+      // display: none;
+      color: #fff;
+      font-size: 1.1rem;
+      margin-left: 0px;
+      font-family: $ScriptFont;
+    }
+    .question {
+      // display: none;
+      color: #eee;
+      font-size: 1.1rem;
+      margin-left: 0px;
+    }
+  }
+}
+
+#iletisim-alt {
+  position: fixed;
+  bottom: 0px; // @extend .noise2;
+  height: 35px;
+  border-top: #444 solid 1px;
+  display: block;
+  background-color: rgba(42, 47, 53, 0.9);
+  text-align: center;
+  color: #ffffff;
+  width: 77vw;
+  margin-left: 8px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-size: 0.9rem;
+  padding: 14px 40px 0 0;
+  z-index: 20;
+  #ia-cont {
+    margin: 0 auto;
+    background: transparent;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 25px;
+  }
+  .iletisim-sp {
+    // display: inline-block;
+    position: relative;
+    top: -7px;
+    margin-left: 2px;
+  }
+  .iletisim-ico //#ico-email
+  {
+    width: 2rem; // padding: 10px;
+    .cls-1 {
+      fill: #ffffff;
+    }
+  }
+}
+.pg-ct {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  text-align: justify;
+}
