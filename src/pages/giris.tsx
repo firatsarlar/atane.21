@@ -16,17 +16,31 @@ export default () => (
                         <p >
                                 Atölye Tane, yaratıcı tarafını tanımak, kendisine ve yaratmaya zaman ayırmak  isteyen herkese açık, donanımlı bir sadekar atölyesidir.  <br /><br />
                                 Yenişehir Pendik’te yer alan atölyemizde pirinç, bakır, gümüş ve altın gibi metalleri işliyoruz.
-Doğal malzemeler, yarı kıymetli ve kıymetli taşlar kullanarak takı ve aksesuarlar yapıyoruz. <br /><br />
-                                Bir yandan üretiyor, bir yandan öğreniyoruz. <br /><br />
+                                Doğal malzemeler, yarı kıymetli ve kıymetli taşlar kullanarak takı ve aksesuarlar yapıyoruz. <br /><br />
                                 Eşsiz hediyeler vermek isteyenler için atölyemizde el işçiliği ile ürettiğimiz özel tasarımlarımız sergi alanımızda beğeninize sunulmakta,
-kendi tasarımlarını hayata geçirmek isteyenler için ise özel siparişler çalışılmaktadır.<br /><br />
-                                <b>Atolyemizi kış ve bahar ayları boyunca yaratmaktan ve yapmaktan zevk alanlara açıyoruz !</b><br /><br />
-                                Bilindiği kadarıyla 100.000 yıl öncesinden itibaren vucutlarımızı takı ve aksesuarlarla süslüyoruz. <br /><br />
-                                Bu antik sanatın inceliklerini paylaşmak üzere 45 yıllık tecrübesi ile Sadekar Bedros Çirişyan Salı günleri
-Takı Tasarım Atölyemizin eğlenceli çalışma ortamında bizlerle. <br /> <br />
-                                Düzenli çalışma grubumuz, özel tatil günleri dışında her hafta Salı günü 18:00 – 21:30 arasında devam etmektedir.<br /><br />
+                                kendi tasarımlarını hayata geçirmek isteyenler için ise özel siparişler çalışılmaktadır.<br /><br />
+
                                 <span class="pnote">*   Alternatif çalışma günleri, katılımcıların ortak tercihleri doğrultusunda belirlenmeye çalışılacaktır. Çalışma grupları  5 kişiliktir.</span>
                         </p>
+                        <KurslarBasliyor />
                 </div>
         </Scrollbars>
 );
+
+const KurslarBasliyor = () => {
+        return (
+                <p>
+                        <b>Etkinlik ve kurslarımız başlıyor…</b><br /><br />
+
+                        Atölye Tane'de Covid - 19 salgını nedeniyle ara verdiğimiz çalışmalarımıza Ekim 2021 itibariyle başlıyoruz.Atölye etkinliklerimiz Kadıköy’deki yeni atölyemizin açılışına kadar Pendik - Yenişehir de devam edecek.<br /><br />
+
+                        45 yıllık tecrübesi ile Sadekar Bedros Çirişyan çalışmalarımızda bize rehberlik etmeye devam edecek ve bu antik sanatın inceliklerini bizimle paylaşacak.<br /><br />
+
+                        Alternatif çalışma günleri katılımcıların ortak tercihleri doğrultusunda belirlenmeye çalışılacaktır.Çalışma grupları Covid - 19 salgını sebebiyle en fazla 4 kişi olarak sınırlandırılmıştır.<br /><br />
+
+                        Etkinlik ve kurs tarihleri katılımcıların müsait günleri dikkate alınarak, yeterli katılımcı sayısına göre belirlenecektir.Bu nedenle 15 gün önceden randevunuzu almanızı ve randevu gününe sadık kalmanızı önemle rica ederiz.<br /><br />
+
+                        Günlük atölye etkinlikleri ve aylık kurs programı ile ilgili detayları yandaki ilgili linklerde bulabilirsiniz.<br /><br />
+                </p>
+        )
+}

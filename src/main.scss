@@ -1,10 +1,8 @@
 @import "variables";
-@import url('#{$site_root}/fonts/OpenSans-Light.css');
-// @import "/fonts/Kalam-Light.css";
-// @import "/fonts/Kalam-Regular.css";
-@import url('#{$site_root}/fonts/Mali-Light.css');
-@import url('#{$site_root}/fonts/Mali-ExtraLight.css');
-@import url('#{$site_root}/fonts/Mali-Regular.css');
+@import url('./static_assets/fonts/OpenSans-Light.css');
+@import url('./static_assets/fonts/Mali-Light.css');
+@import url('./static_assets/fonts/Mali-ExtraLight.css');
+@import url('./static_assets/fonts/Mali-Regular.css');
 @import "common";
 html {
 }

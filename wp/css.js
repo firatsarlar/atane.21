@@ -1,9 +1,9 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-// const PurgecssPlugin = require('purgecss-webpack-plugin')
+const PurgecssPlugin = require('purgecss-webpack-plugin')
 const path = require('path')
 const glob = require('glob')
 // const sassfunctions = require(__dirname + "/sass_functions/sassfn.js").sassfn;
-const CssDefer = require(path.join(__dirname, './css_defer.js'));
+// const CssDefer = require(path.join(__dirname, '../ext_tools/wp_css_defer/index.js'));
 // console.log(sassfunctions);
 const HTMLInlineCSSWebpackPlugin = require("html-inline-css-webpack-plugin").default;
 const PATHS = {
@@ -20,12 +20,7 @@ exports.extractCSS = (/*{ include, exclude, use = [] }*/) => {
     }
   }),
   // new CssDefer(),
-  new HTMLInlineCSSWebpackPlugin({
-    leaveCSSFile: true,
-    // filter(fileName) {
-    //   return fileName.includes('main');
-    // },
-  }),
+  new HTMLInlineCSSWebpackPlugin(),
 
   ];
 
@@ -45,22 +40,30 @@ exports.extractCSS = (/*{ include, exclude, use = [] }*/) => {
         {
           test: /\.scss$/,
 
-          use: [MiniCssExtractPlugin.loader, "css-loader",
-          {
-            loader: 'resolve-url-loader',
-            // options: {...}
-          },
-          {
-            loader: "sass-loader",
-            options: {
-              // includePaths: ['node_modules']
-              // outputStyle: 'compressed',,
+          use: [
+            MiniCssExtractPlugin.loader,
+            {
+              loader: "css-loader",
+              options: {
+                url: false
+              }
+            },
+            // {
+            //   loader: 'resolve-url-loader',
+            //   // options: {...}
+            // },
+            {
+              loader: "sass-loader",
+              options: {
+                // includePaths: ['node_modules']
+                // outputStyle: 'compressed',,
 
-              sourceMap: false,
+                sourceMap: false,
+              }
             }
-          }
 
           ],
+
           //     use: ["style-loader", "css-loader", "sass-loader"],
         },
       ],
@@ -90,7 +93,13 @@ exports.loadCSS = ({ include, exclude } = {}) => {
           test: /\.scss$/,
 
           //    use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],,'preprocess-loader'
-          use: ["style-loader", "css-loader",
+          use: ["style-loader",
+            {
+              loader: "css-loader",
+              options: {
+                url: false
+              }
+            },
             // {
             //   loader: 'resolve-url-loader',
             //   // options: {...}
