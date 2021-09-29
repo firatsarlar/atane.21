@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Font Awesome 5 Pro";
-    src: url("fa-light-300.eot"); /* IE9 */
-    src: url("fa-light-300.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("fa-light-300.woff") format("woff"), /* chrome, firefox */
-    url("fa-light-300.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-    url("fa-light-300.svg#Font Awesome 5 Pro") format("svg"); /* iOS 4.1- */
+    src: url("/fonts//fonts/fa-light-300.eot"); /* IE9 */
+    src: url("/fonts/fa-light-300.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts/fa-light-300.woff") format("woff"), /* chrome, firefox */
+    url("/fonts/fa-light-300.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("/fonts/fa-light-300.svg#Font Awesome 5 Pro") format("svg"); /* iOS 4.1- */
     font-style: normal;
     font-weight: normal;
 }

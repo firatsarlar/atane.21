@@ -12,7 +12,7 @@ export const routes = {
             "component": "dersler",
             // "class": "urunler"
         },{
-            "display": "GÜNLÜK WORKSHOPLAR",
+            "display": "GÜNLÜK ETKİNLİKLER",
             "link": "workshop",
             "component": "atolye",
             // "class": "zaman"

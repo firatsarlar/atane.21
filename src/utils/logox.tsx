@@ -10,7 +10,7 @@ export class Logo extends Component<LogoProps, any> {
 
     render() {
         
-        return ( <img src="../images/logo_338x236.png" /> );
+        return ( <img src="../images/lgtr21.png" /> ); //logo_338x236
     }
 }
 

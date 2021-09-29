@@ -44,7 +44,7 @@ const link_comp_tr = routes.tr.map( (route) => {
       return (
         <div class="contentb" lang="tr">
           <div id="left-section" class="noise">
-          <Link href="/tr/atolye-tane" ><img src="/images/logo_338x236.png"  id="logoTop"  /></Link>
+          <Link href="/tr/atolye-tane" ><img src="/images/lgtr21.png"  id="logoTop"  /></Link>
           <ul id="nav">{link_comp_tr}</ul>
           </div>
           <div id="mcont">

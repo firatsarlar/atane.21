@@ -39,7 +39,7 @@ export default () => (
         Ders süresince çay, kahve , soğuk içecekler, salata ve  atıştırmalıklar servis edilir.<br /><br />
 
 
-        <span class="notes">
+        <span class="xnotes">
           * Güvenli bir çalışma ortamı için çalışma esnasında lütfen burnu kapalı ayakkabı giyiniz ve saçlarınızı toplayınız.<br />
 
           * Atkı, şal, sarkık kollu bluz, uzun kolyeler gibi çalışma alanında engel ve risk yaratacak giyim ve aksesuarları tercih etmeyiniz.<br />

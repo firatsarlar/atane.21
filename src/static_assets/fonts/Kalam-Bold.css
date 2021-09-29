@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Kalam";
-    src: url("Kalam-Bold.eot"); /* IE9 */
-    src: url("Kalam-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("Kalam-Bold.woff") format("woff"), /* chrome, firefox */
-    url("Kalam-Bold.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-    url("Kalam-Bold.svg#Kalam") format("svg"); /* iOS 4.1- */
+    src: url("/fonts/Kalam-Bold.eot"); /* IE9 */
+    src: url("/fonts/Kalam-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts/Kalam-Bold.woff") format("woff"), /* chrome, firefox */
+    url("/fonts/Kalam-Bold.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("/fonts/Kalam-Bold.svg#Kalam") format("svg"); /* iOS 4.1- */
     font-style: normal;
     font-weight: bold;
 }

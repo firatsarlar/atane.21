@@ -12,7 +12,7 @@ export default () => (
                         <div class="bgx"></div>
 
                         {/* <br /><br /> */}
-                        <h2 style="text-align:center;"><img src="/images/atane-log-tt.png" style="width:340px;display:inline;border-bottom:none" /></h2>
+                        <h2 style="text-align:center;"><img src="/images/loto_tt2x.png" style="width:340px;display:inline;border-bottom:none" /></h2>
                         <p >
                                 Atölye Tane, yaratıcı tarafını tanımak, kendisine ve yaratmaya zaman ayırmak  isteyen herkese açık, donanımlı bir sadekar atölyesidir.  <br /><br />
                                 Yenişehir Pendik’te yer alan atölyemizde pirinç, bakır, gümüş ve altın gibi metalleri işliyoruz.
@@ -20,7 +20,7 @@ export default () => (
                                 Eşsiz hediyeler vermek isteyenler için atölyemizde el işçiliği ile ürettiğimiz özel tasarımlarımız sergi alanımızda beğeninize sunulmakta,
                                 kendi tasarımlarını hayata geçirmek isteyenler için ise özel siparişler çalışılmaktadır.<br /><br />
 
-                                <span class="pnote">*   Alternatif çalışma günleri, katılımcıların ortak tercihleri doğrultusunda belirlenmeye çalışılacaktır. Çalışma grupları  5 kişiliktir.</span>
+                                
                         </p>
                         <KurslarBasliyor />
                 </div>
@@ -36,7 +36,7 @@ const KurslarBasliyor = () => {
 
                         45 yıllık tecrübesi ile Sadekar Bedros Çirişyan çalışmalarımızda bize rehberlik etmeye devam edecek ve bu antik sanatın inceliklerini bizimle paylaşacak.<br /><br />
 
-                        Alternatif çalışma günleri katılımcıların ortak tercihleri doğrultusunda belirlenmeye çalışılacaktır.Çalışma grupları Covid - 19 salgını sebebiyle en fazla 4 kişi olarak sınırlandırılmıştır.<br /><br />
+                        Çalışma grupları Covid - 19 salgını sebebiyle en fazla 4 kişi olarak sınırlandırılmıştır.<br /><br />
 
                         Etkinlik ve kurs tarihleri katılımcıların müsait günleri dikkate alınarak, yeterli katılımcı sayısına göre belirlenecektir.Bu nedenle 15 gün önceden randevunuzu almanızı ve randevu gününe sadık kalmanızı önemle rica ederiz.<br /><br />
 
