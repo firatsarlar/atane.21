@@ -1,8 +1,8 @@
 @import "variables";
-@import url('./static_assets/fonts/OpenSans-Light.css');
-@import url('./static_assets/fonts/Mali-Light.css');
-@import url('./static_assets/fonts/Mali-ExtraLight.css');
-@import url('./static_assets/fonts/Mali-Regular.css');
+@import url("./static_assets/fonts/OpenSans-Light.css");
+@import url("./static_assets/fonts/Mali-Light.css");
+@import url("./static_assets/fonts/Mali-ExtraLight.css");
+@import url("./static_assets/fonts/Mali-Regular.css");
 @import "common";
 html {
 }
@@ -117,16 +117,18 @@ h2 {
     border-bottom: #7d7d7d solid 1px;
   }
 }
-#giris h2{
-  border:none;
+#giris h2 {
+  border: none;
   background: none;
 }
 #logoTop {
-  width: 88%;
   position: relative;
   top: 25px;
   display: block;
   margin: 0 auto;
+ 
+    width: 80%;
+    padding: 3rem 1rem;
 }
 
 // .circle:before {

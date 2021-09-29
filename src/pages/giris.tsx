@@ -12,7 +12,7 @@ export default () => (
                         <div class="bgx"></div>
 
                         {/* <br /><br /> */}
-                        <h2 style="text-align:center;"><img src="/images/loto_tt2x.png" style="width:340px;display:inline;border-bottom:none" /></h2>
+                        <h2 style="text-align:center;"><img src="/images/loto_tt2x.png" style="width:380px;display:inline;border-bottom:none" /></h2>
                         <p >
                                 Atölye Tane, yaratıcı tarafını tanımak, kendisine ve yaratmaya zaman ayırmak  isteyen herkese açık, donanımlı bir sadekar atölyesidir.  <br /><br />
                                 Yenişehir Pendik’te yer alan atölyemizde pirinç, bakır, gümüş ve altın gibi metalleri işliyoruz.
